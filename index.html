@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freelance Web Developer - Création de sites web professionnels, WordPress, Landing Pages. Services bilingues FR/EN.">
+    <title>Freelance Web Developer | Création de Sites Web Professionnels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2 data-translate="nav.brand">WebDev Pro</h2>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-translate="nav.home">Accueil</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav.about">À Propos</a></li>
+                <li><a href="#services" class="nav-link" data-translate="nav.services">Services</a></li>
+                <li><a href="#portfolio" class="nav-link" data-translate="nav.portfolio">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link" data-translate="nav.testimonials">Avis</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title" data-translate="hero.title">Sites Web Modernes qui Convertissent</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Freelance spécialisé dans la création de sites web professionnels, responsives et performants</p>
+                <p class="hero-description" data-translate="hero.description">Transformez votre présence en ligne avec des solutions web sur mesure. Design moderne, code optimisé, résultats garantis.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-translate="hero.cta">Contactez-moi</a>
+                    <a href="#portfolio" class="btn btn-secondary" data-translate="hero.portfolio">Voir le Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="about.title">À Propos</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead" data-translate="about.lead">Développeur web freelance passionné, je crée des sites web qui allient esthétique moderne et performance technique.</p>
+                    <p data-translate="about.text1">Avec plusieurs années d'expérience dans le développement web, j'accompagne les entreprises et entrepreneurs dans leur transformation digitale. Mon approche combine créativité, expertise technique et écoute client.</p>
+                    <p data-translate="about.text2">Chaque projet est unique. Je m'engage à comprendre vos besoins, vos objectifs et votre vision pour créer une solution web sur mesure qui vous démarque de la concurrence.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">💼</div>
+                        <h3 data-translate="about.experience.title">Expérience</h3>
+                        <p data-translate="about.experience.text">5+ ans dans le développement web, projets variés pour clients internationaux</p>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🛠️</div>
+                        <h3 data-translate="about.skills.title">Compétences</h3>
+                        <p data-translate="about.skills.text">HTML5, CSS3, JavaScript, WordPress, Responsive Design, SEO, Performance</p>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🌍</div>
+                        <h3 data-translate="about.languages.title">Langues</h3>
+                        <p data-translate="about.languages.text">Français (natif) & Anglais (courant) - Communication fluide avec clients internationaux</p>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">🤝</div>
+                        <h3 data-translate="about.approach.title">Approche Client</h3>
+                        <p data-translate="about.approach.text">Écoute active, communication transparente, livraisons dans les délais, support continu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="services.title">Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-description" data-translate="services.description">Des solutions web complètes adaptées à vos besoins et à votre budget</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3 data-translate="services.website.title">Sites Web Vitrines</h3>
+                    <p data-translate="services.website.description">Sites professionnels pour présenter votre activité. Design moderne, responsive, optimisé SEO.</p>
+                    <ul class="service-features">
+                        <li data-translate="services.website.feature1">Design sur mesure</li>
+                        <li data-translate="services.website.feature2">100% Responsive</li>
+                        <li data-translate="services.website.feature3">Optimisation SEO</li>
+                        <li data-translate="services.website.feature4">Formation incluse</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3 data-translate="services.landing.title">Landing Pages</h3>
+                    <p data-translate="services.landing.description">Pages de conversion optimisées pour maximiser vos ventes et générer des leads qualifiés.</p>
+                    <ul class="service-features">
+                        <li data-translate="services.landing.feature1">Optimisé conversion</li>
+                        <li data-translate="services.landing.feature2">A/B Testing</li>
+                        <li data-translate="services.landing.feature3">Intégration analytics</li>
+                        <li data-translate="services.landing.feature4">Temps de chargement rapide</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3 data-translate="services.wordpress.title">Sites WordPress</h3>
+                    <p data-translate="services.wordpress.description">Création et personnalisation de sites WordPress. Thèmes sur mesure, plugins optimisés.</p>
+                    <ul class="service-features">
+                        <li data-translate="services.wordpress.feature1">Thème personnalisé</li>
+                        <li data-translate="services.wordpress.feature2">Gestion de contenu facile</li>
+                        <li data-translate="services.wordpress.feature3">Sécurité renforcée</li>
+                        <li data-translate="services.wordpress.feature4">Maintenance incluse</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 data-translate="services.redesign.title">Refonte & Personnalisation</h3>
+                    <p data-translate="services.redesign.description">Modernisez votre site existant. Amélioration du design, performance et expérience utilisateur.</p>
+                    <ul class="service-features">
+                        <li data-translate="services.redesign.feature1">Audit complet</li>
+                        <li data-translate="services.redesign.feature2">Design moderne</li>
+                        <li data-translate="services.redesign.feature3">Amélioration performance</li>
+                        <li data-translate="services.redesign.feature4">Migration sécurisée</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="portfolio.title">Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-description" data-translate="portfolio.description">Découvrez quelques-uns de mes projets récents</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>🍽️</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 data-translate="portfolio.item5.title">Site Restaurant Premium</h3>
+                        <p data-translate="portfolio.item5.description">Site élégant pour restaurant haut de gamme. Menu interactif, réservations en ligne, galerie photos haute qualité.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="testimonials.title">Avis Clients</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text" data-translate="testimonials.item1.text">"Excellent travail ! Mon nouveau site web dépasse toutes mes attentes. Professionnel, réactif et très à l'écoute. Je recommande vivement !"</p>
+                    <div class="testimonial-author">
+                        <strong data-translate="testimonials.item1.name">Sophie Martin</strong>
+                        <span data-translate="testimonials.item1.role">Directrice Marketing</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text" data-translate="testimonials.item2.text">"Un développeur talentueux et professionnel. Le site WordPress créé est exactement ce que je voulais. Formation incluse, support excellent. Parfait !"</p>
+                    <div class="testimonial-author">
+                        <strong data-translate="testimonials.item2.name">Jean Dubois</strong>
+                        <span data-translate="testimonials.item2.role">Entrepreneur</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text" data-translate="testimonials.item3.text">"Landing page créée en un temps record. Le taux de conversion a augmenté de 35% ! Communication parfaite, livraison dans les délais. Top !"</p>
+                    <div class="testimonial-author">
+                        <strong data-translate="testimonials.item3.name">Marie Leclerc</strong>
+                        <span data-translate="testimonials.item3.role">Fondatrice Startup</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text" data-translate="testimonials.item4.text">"Refonte complète de mon site. Résultat : design moderne, chargement ultra-rapide, meilleur référencement. Très satisfait du travail réalisé."</p>
+                    <div class="testimonial-author">
+                        <strong data-translate="testimonials.item4.name">Pierre Bernard</strong>
+                        <span data-translate="testimonials.item4.role">Directeur Commercial</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="contact.title">Contactez-moi</h2>
+                <div class="title-underline"></div>
+                <p class="section-description" data-translate="contact.description">Discutons de votre projet et trouvons ensemble la solution idéale</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-translate="contact.form.name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-translate="contact.form.email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-translate="contact.form.subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-translate="contact.form.message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="contact.form.submit">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3 data-translate="contact.info.email.title">Email</h3>
+                        <p><a href="mailto:mawussijacques07@gmail.com">mawussijacques07@gmail.com</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💼</div>
+                        <h3 data-translate="contact.info.fiverr.title">Fiverr</h3>
+                        <p><a href="https://www.fiverr.com/yourprofile" target="_blank" rel="noopener" data-translate="contact.info.fiverr.link">Voir mon profil Fiverr</a></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">⚡</div>
+                        <h3 data-translate="contact.info.response.title">Temps de réponse</h3>
+                        <p data-translate="contact.info.response.text">Réponse sous 24h, du lundi au vendredi</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🌍</div>
+                        <h3 data-translate="contact.info.languages.title">Langues</h3>
+                        <p data-translate="contact.info.languages.text">Français & Anglais - Communication fluide garantie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 data-translate="footer.brand">WebDev Pro</h3>
+                    <p data-translate="footer.tagline">Création de sites web professionnels et modernes</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer.navigation">Navigation</h4>
+                    <ul>
+                        <li><a href="#home" data-translate="nav.home">Accueil</a></li>
+                        <li><a href="#about" data-translate="nav.about">À Propos</a></li>
+                        <li><a href="#services" data-translate="nav.services">Services</a></li>
+                        <li><a href="#portfolio" data-translate="nav.portfolio">Portfolio</a></li>
+                        <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-translate="footer.contact">Contact</h4>
+                    <p>📧 <a href="mailto:mawussijacques07@gmail.com">mawussijacques07@gmail.com</a></p>
+                    <p>💼 <a href="https://www.fiverr.com/yourprofile" target="_blank" rel="noopener">Fiverr</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebDev Pro. <span data-translate="footer.rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
